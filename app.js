@@ -69,7 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   //Check for matches
-  function checkForMatch
+  function checkForMatch() {
+
+  }
 
   //Flip You Card
   function flipCard() {
