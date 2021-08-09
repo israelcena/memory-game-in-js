@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const optionOneId = cardsChosenId[0]
     const optionTwoId = cardsChosenId[1]
     if (cardsChosen[0] === cardsChosen[1]) {
-      alert('Você encontrou !')
+      alert('Você encontrou')
       cards[optionOneId].setAttribute('src', 'images/white.png')
       cards[optionTwoId].setAttribute('src', 'images/white.png')
       cardsWon.push(cardsChosen)
