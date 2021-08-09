@@ -1,8 +1,8 @@
 # Memory Game
 
-!(memorygame screen)[./images/memorygame.png]
+![memorygame screen](./images/memorygame.png)
 
-(Demo Site)[https://www.jogodamemoria.israelcena.com.br/]
+[Demo Site](https://www.jogodamemoria.israelcena.com.br/)
 
 A retro grid-based game in vanilla JavaScript, HTML and CSS
 
