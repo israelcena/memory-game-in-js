@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img: 'images/hotdog.png'
     }
   ]
-
+  //sort cards
   cardArray.sort(() => 0.5 - Math.random())
 
   const grid = document.querySelector('.grid')
@@ -104,5 +104,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  //call for a function
   createBoard()
 })
