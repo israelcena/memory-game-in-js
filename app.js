@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   //flip your card
   function flipCard() {
-    var cardId = this.getAttribute('data-id')
+    let cardId = this.getAttribute('data-id')
     cardsChosen.push(cardArray[cardId].name)
     cardsChosenId.push(cardId)
     this.setAttribute('src', cardArray[cardId].img)
