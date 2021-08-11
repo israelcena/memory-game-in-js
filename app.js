@@ -104,6 +104,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  //call for a function
+  //call for a board
   createBoard()
 })
