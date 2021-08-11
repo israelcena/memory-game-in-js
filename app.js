@@ -76,20 +76,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const optionOneId = cardsChosenId[0]
     const optionTwoId = cardsChosenId[1]
     if (cardsChosen[0] === cardsChosen[1]) {
-      alert('Você encontrou')
+      alert('Parabéns! Você encontrou!')
       cards[optionOneId].setAttribute('src', 'images/white.png')
       cards[optionTwoId].setAttribute('src', 'images/white.png')
       cardsWon.push(cardsChosen)
     } else {
       cards[optionOneId].setAttribute('src', 'images/blank.png')
       cards[optionTwoId].setAttribute('src', 'images/blank.png')
-      alert('Tente Novamente')
+      alert('Errado! Tente Novamente')
     }
     cardsChosen = []
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
     if (cardsWon.length === cardArray.length / 2) {
-      resultDisplay.textContent = 'Parabéns, Você encontrou todas as cartas'
+      resultDisplay.textContent = `Com ${cardsWon.length} pontos, Você encontrou todas as cartas!`
     }
   }
 
