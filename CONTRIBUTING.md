@@ -1,7 +1,5 @@
 # 🎉 Thanks for taking the time to contribute to me! 🎉
 
-It is highly appreciated that you take the time to help improve Dialetus.
-
 # Contributing
 
 1. Fork it!
